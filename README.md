@@ -1,4 +1,5 @@
 # Caves (v 1.0a)
+[:ru: На русском языке](README_RU.md)
 ## About the Project
 The **Caves** application is a game I created using the Unity engine in 2024. 
 It is a top-down Roguelike with fully procedural generation of maps, enemies, and bosses, providing the player with a unique experience every time they play.
@@ -6,9 +7,9 @@ It is a top-down Roguelike with fully procedural generation of maps, enemies, an
 ## How to Run
 To play the game yourself:
 1. Go to the **Releases** tab of the project on GitHub.
-2. Download the latest `.zip` file.
+2. Download the latest `Caves.V.1.0a.zip` file.
 3. Extract the archive contents to a location of your choice.
-4. Launch the game by double-clicking the `Caves` executable file.
+4. Launch the game by double-clicking the `Caves(1.0a)` executable file.
 ## Core Gameplay
 ### Fully Procedural Map Generation
 Caves, enemy placements, items, and the boss lair are generated randomly at the start of each run.     
@@ -48,7 +49,7 @@ Find health kits scattered throughout the caves. Each collected kit refills your
 5. Do not leave the boss arena, or the boss will begin to regenerate health rapidly.
 6. During certain attacks, the boss becomes covered by a blue shield. In this state, it is completely invulnerable until you kill all summoned enemies on the battlefield.
 ## Extra Content
-If you want to fight the final boss without the search and grind, use the test version of the game where you start right next to the arena. The test version is launched the same way as the main one. The test version zip file is named `Caves(BossTest 0.12)`.
+If you want to fight the final boss without the search and grind, use the test version of the game where you start right next to the arena. The test version is launched the same way as the main one. The test version zip file is named `Caves.BossTest.0.12.zip`.
 > Note: use the cheat code `K` to disable the boss's armor without earning points.
 ## Cheat Codes
 Use at your own discretion. Press the required key during gameplay:
