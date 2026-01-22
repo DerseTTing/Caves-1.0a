@@ -1,64 +1,62 @@
 # Caves (v 1.0a)
-## О проекте
-Приложение **Caves** - игра созданная мною на игровом движке Unity в 2024 году.
-Это игра жанра Roguelike с видом сверху и полностью процедурной генерацией карты, врагов и босса, что дает игроку уникальный опыт игры при каждом запуске.
-> ⚠️ **Примечание:** *К сожалению исходный код был утерян, но у меня остался финальный билд игры, в который можно поиграть*
-## Запуск игры
-Для того чтобы самостоятельно поиграть в игру:
-1. Перейдите во вкладку **Releases** проекта на GitHub.
-2. Скачайте актуальный `.zip` файл.
-3. Распакуйте содержимое архива в удобное для вас место.
-4. Запустите игру, дважды кликнув по исполняемому файлу `Caves`.
-## Основной геймплей
-### Полностью процедурная генерация карты
-Пещеры, расположение противников, предметов и логово босса создаются случайно при каждом запуске.     
+## About the Project
+The **Caves** application is a game I created using the Unity engine in 2024. 
+It is a top-down Roguelike with fully procedural generation of maps, enemies, and bosses, providing the player with a unique experience every time they play.
+> ⚠️ **Note:** *Unfortunately, the source code was lost, but I still have the final build of the game available to play.*
+## How to Run
+To play the game yourself:
+1. Go to the **Releases** tab of the project on GitHub.
+2. Download the latest `.zip` file.
+3. Extract the archive contents to a location of your choice.
+4. Launch the game by double-clicking the `Caves` executable file.
+## Core Gameplay
+### Fully Procedural Map Generation
+Caves, enemy placements, items, and the boss lair are generated randomly at the start of each run.     
 
-![generationMap](/MediaFiles/generationMap.gif)
+![generationMap](MediaFiles/generationMap.gif)
 
-### Разнообразные враги
-Вам предстоит встретиться с тремя типами врагов, каждый из которых имеет особые механики
+### Diverse Enemies
+You will encounter three types of enemies, each with its own unique mechanics.
 
-![enemy](/MediaFiles/enemy.gif)
-### Финальный босс
-Финальный босс статичен, но имеет много здоровья и 6 уникальных атак
+![enemy](MediaFiles/enemy.gif)
+### Final Boss
+The final boss is stationary but has a large health pool and 6 unique attacks.
 
-![alt text](/MediaFiles/boss.gif)
+![bossAttack](MediaFiles/boss.gif)
 
-### Система исцеления
-Находите аптечки раскиданные по пещерам. С каждой поднятой аптечкой, вы пополняете уровень запасного хп. При необходимости перекачайте запасное здоровье в основное, зажав `Q`.
+### Healing System
+Find health kits scattered throughout the caves. Each collected kit refills your "reserve HP." If needed, transfer your reserve health to your main health bar by holding `Q`.
 
-![healing](/MediaFiles/healing.gif)
+![healing](MediaFiles/healing.gif)
 
-## Управление
+## Controls
 
-`WASD` - Управление персонажем.  
-`ЛКМ` - Стрельба.  
-`Space` - Рывок.  
-`Q` - Лечение.  
-`R` - Начать заново с перегенерацией пещер.  
+`WASD` - Character movement.  
+`LMB` - Shoot.  
+`Space` - Dash.  
+`Q` - Heal.  
+`R` - Restart with cave regeneration.  
 
-![game](/MediaFiles/game.jpg)
+![game](MediaFiles/game.jpg)
 
-## Подсказки 
-1. Во время рывка вы неуязвимы. Используйте его, чтобы уклоняться от выстрелов и врагов.
+## Pro Tips 
+1. You are invulnerable while dashing. Use this to dodge projectiles and enemies.
    
-2. Финальный босс получает меньше урона, пока у вас мало очков. Очки даются за убийства врагов и сбор монет. Максимальный урон финальный босс будет получать при 500 и более очков. Текущую броню босса можно увидеть в верхнем правом углу
-3. Индикатором приближения к финальному боссу является появление красной полоски здоровья сверху от вашей.
-4. Синие клетки вокруг арены с финальным боссом защищают вас от всех опасностей снаружи во время сражения.
-5. Не покидайте зону битвы с финальным боссом, иначе он начнет быстро восполнять свое здоровье
-6. Во время некоторых атак финального босса, он покрывается синим щитом. В этом состоянии он полностью неуязвим, пока вы не убьете всех призванных врагов на поле битвы.
-## Дополнительный контент
-Если вы хотите сразиться с финальным боссом без поисков и заморочек, используйте тестовую версию игры, где вы сразу начинаете рядом с ареной битвы. Открывается тестовая версия точно так же, как и основная. Zip-файл тестовой версии с названием `Caves(BossTest 0.12)`.
-> Примечание: используйте читкод `K` чтобы отключить защиту босса без набора очков.
-## Чит коды
-Использовать на свое усмотрение. Нажмите требуемую кнопку во время игры
+2. The final boss takes less damage if your score is low. Points are earned by killing enemies and collecting coins. The boss takes maximum damage when you have 500 points or more. You can see the boss's current armor status in the top right corner.
+3. An indicator of approaching the final boss is a red health bar appearing above yours.
+4. The blue tiles around the final boss arena protect you from all outside dangers during the fight.
+5. Do not leave the boss arena, or the boss will begin to regenerate health rapidly.
+6. During certain attacks, the boss becomes covered by a blue shield. In this state, it is completely invulnerable until you kill all summoned enemies on the battlefield.
+## Extra Content
+If you want to fight the final boss without the search and grind, use the test version of the game where you start right next to the arena. The test version is launched the same way as the main one. The test version zip file is named `Caves(BossTest 0.12)`.
+> Note: use the cheat code `K` to disable the boss's armor without earning points.
+## Cheat Codes
+Use at your own discretion. Press the required key during gameplay:
 
-`H` - Бессмертие и регенерация (повторное нажатие для отключения)  
-`J` - Рывок без перезарядки (повторное нажатия для отключения)   
-`K` - Получить 500 очков
+`H` - Invincibility and regeneration (press again to disable).  
+`J` - Dash with no cooldown (press again to disable).   
+`K` - Gain 500 points.
 
-## Технологии
+## Tech Stack
 * **Engine:** Unity 2024
 * **Language:** C#
-   
-
