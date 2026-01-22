@@ -4,7 +4,7 @@
 The **Caves** application is a game I created using the Unity engine in 2024. 
 It is a top-down Roguelike with fully procedural generation of maps, enemies, and bosses, providing the player with a unique experience every time they play.
 > ⚠️ **Note:** *Unfortunately, the source code was lost, but I still have the final build of the game available to play.*
-## How to Run
+## How to Run (ONLY WINDOWS)
 To play the game yourself:
 1. Go to the **Releases** tab of the project on GitHub.
 2. Download the latest `Caves.V.1.0a.zip` file.
